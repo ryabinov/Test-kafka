@@ -1,0 +1,8 @@
+#server:
+#  port: 8183
+
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: 213.108.129.175:9092
+      group-id: msg

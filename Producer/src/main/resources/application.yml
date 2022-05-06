@@ -1,0 +1,10 @@
+server:
+  port: 8182
+spring:
+  kafka:
+    producer:
+      bootstrap-servers: 213.108.129.175:9092
+
+#      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+ #     value-serializer: org.springframework.kafka.support.serializer.JsonSerializer
+
